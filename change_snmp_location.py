@@ -43,7 +43,8 @@ def update_snmp_location(username, password, ip_address, new_location):
 # Read and append the CSV file to define the IP and SNMP Location of the device.
 list_of_devices = []
 
-with open(r'C:\Users\lajeff\PycharmProjects\Cisco_Automation\devices.csv') as File:
+# you may need to supply the csv file location below in: i.e.: (r'C:\etc\devices.csv')
+with open(r'devices.csv') as File:
 	reader = csv.DictReader(File, delimiter=';')
 	for row in reader:
 		list_of_devices.append(row)
