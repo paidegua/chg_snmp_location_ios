@@ -1,0 +1,7 @@
+# .csv file must be in format of "ip;location" example below:
+# Obviously you can use whatever location makes sense for you.
+# IP will change
+# one device and location per line.
+
+10.1.1.1;555 ACME Drive, No Where Town, OH, 86709, USA
+10.2.2.2;Snowball Closet
