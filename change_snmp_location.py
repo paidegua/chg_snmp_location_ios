@@ -1,9 +1,10 @@
 # Python Script used to update the SNMP location on Cisco IOS devices.
-# Date March 31 2020 using MS Visual Studio
+# Date October 16 2023 using MS Visual Studio
+## Updated netmoko.ssh_exeptions to netmiko.exceptions to reflect recent netmiko changes.
 # Contributors on GitHub, shepherdjay, sudoursa and paidegua
 
 from netmiko import ConnectHandler
-from netmiko.ssh_exception import NetmikoTimeoutException, NetmikoAuthenticationException
+from netmiko.exceptions import NetmikoTimeoutException, NetmikoAuthenticationException
 import csv
 import getpass
 
